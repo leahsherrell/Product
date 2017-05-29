@@ -41,25 +41,9 @@
 }
 
 @font-face {
-    font-family: 'billo_dreamregular';
-    src: url('../fonts/billd___-webfont.woff2') format('woff2'),
-         url('../fonts/billd___-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'parkvaneregular';
     src: url('../fonts/parkvane-webfont.woff2') format('woff2'),
          url('../fonts/parkvane-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'neon_lightsregular';
-    src: url('../fonts/neon2-webfont.woff2') format('woff2'),
-         url('../fonts/neon2-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -77,12 +61,9 @@ body {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  margin: 0 40px;
+  margin: 0 60px;
 }
 
-ul {
-  list-style-type: none;
-}
 
 h1.logo {
   text-align: center;
@@ -102,7 +83,7 @@ h1.logo {
 
 .product img {
   display: block;
-  height: 250px;
+  height: 280px;
   margin: auto;
 }
 
@@ -113,7 +94,7 @@ img {
 .caption {
   position: absolute;
   bottom: 260px;
-  left: 285px;
+  left: 290px;
   font-size: 35px;
   color: #f5de02;
   font-family: "fangtasiaregular";
@@ -141,6 +122,9 @@ img {
 
 input {
   border: none;
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
 }
 
 .related li {
@@ -149,6 +133,7 @@ input {
   width: 20%;
   text-align: center;
   padding: 10px;
+  margin-top: 10px;
 }
 
 .related img {
@@ -161,4 +146,6 @@ ul.related {
   overflow: auto;
   clear: both;
   width: 100%;
+  padding-left: 0;
+  list-style-type: none;
 }
