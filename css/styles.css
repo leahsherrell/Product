@@ -146,18 +146,19 @@ input {
 .related li {
   float: left;
   display: inline;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+}
 
+.related img {
+  border: 10px solid #22f8fd;
+  height: auto;
+  max-width: 100%;
 }
 
 ul.related {
-  padding: auto;
-  height: 100%;
-}
-
-.bottom-row {
+  overflow: auto;
   clear: both;
   width: 100%;
-  height: 200px;
-  padding-top: 30px;
-  padding: auto;
 }
