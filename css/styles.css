@@ -125,6 +125,11 @@ input {
   height: 35px;
   width: 250px;
   border-radius: 5px;
+  padding-left: 5px;
+}
+
+input:focus {
+  outline-color: #da00f8;
 }
 
 .related li {
