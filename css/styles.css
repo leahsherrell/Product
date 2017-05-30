@@ -132,6 +132,27 @@ input:focus {
   outline-color: #da00f8;
 }
 
+input:invalid {
+  color: grey;
+}
+
+input:valid {
+color: black;
+}
+
+form::after {
+  content: '"Life isn\'t like in the movies." -Cinema Paradiso';
+  margin-top: 20px;
+  font-style: italic;
+  display: block;
+  opacity: .7;
+}
+
+.quote {
+  opacity: .7;
+  padding-top: 30px;
+}
+
 .related li {
   float: left;
   display: inline;
@@ -143,7 +164,6 @@ input:focus {
 
 .related img {
   border: 10px solid #22f8fd;
-  height: auto;
   max-width: 100%;
 }
 
